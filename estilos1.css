@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eef4ff, #dfe9ff);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.tarjeta-login {
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(71, 85, 105, 0.18);
+    padding: 35px 30px;
+}
+
+.tarjeta-registro {
+     width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(71, 85, 105, 0.18);
+    padding: 35px 30px;
+}
+
+.titulo {
+    font-size: 2rem;
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.filtro-contactos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+    padding: 16px;
+    background: #f8fafc;
+    border-radius: 10px;
+}
+
+.enlace-secundario {
+    text-align: center;
+    color: #4f46e5;
+}
+
+.label {
+    font-weight: 600;
+    color: #374151;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.12);
+    outline: none;
+}
+
+.boton {
+    margin-top: 10px;
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.boton:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.2);
+}
+
+.boton:active {
+    transform: translateY(0);
+}
+
+
